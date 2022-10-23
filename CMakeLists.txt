@@ -1,7 +1,7 @@
-project(learnyocto C)
+project(learnyoctogitpro C)
 cmake_minimum_required(VERSION 2.6.3)
 
-add_executable (learnyocto main.c)
+add_executable (learnyoctogit main.c)
 
-install(TARGETS learnyocto DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
+install(TARGETS learnyoctogit DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
 
